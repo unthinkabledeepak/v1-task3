@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: yashwanthjavvaji/orders
+          image: deepakc826/v1-task3:latest
           env:
             - name: MONGO_URI
               value: 'mongodb://orders-mongo-service:27017/orders'
