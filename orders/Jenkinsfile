@@ -17,6 +17,7 @@ node {
                         sh "git config user.email deepak@unthinkable.co"
                         sh "git config user.name unthinkabledeepak"
                         //sh "git switch master"
+                        sh "echo ${APPIMAGE}"
                         sh "cat orders/orders.yaml"
                         sh "sed -i 's+deepakc826/v1-task3.*+deepakc826/v1-task3:${DOCKERTAG}+g' orders/orders.yaml"
                         sh "cat orders/orders.yaml"
