@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: deepakc826/v1-task3:10
+          image: deepakc826/v1-task3:11
           env:
             - name: MONGO_URI
               value: 'mongodb://orders-mongo-service:27017/orders'
